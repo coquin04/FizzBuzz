@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "server": "node ./lib/server.js",
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   },
   "author": "coquin",
