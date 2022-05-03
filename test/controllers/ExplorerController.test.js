@@ -86,12 +86,12 @@ const nodeExplorersUsernames = [
 describe("Unit Tests for ExplorerController class", () => {
   test("1. Prueba para el metodo getExplorersByMission", () => {
     const explorersByMission = ExplorerController.getExplorersByMission("node");
-    expect(explorersByMission).toExtrictEqual(nodeExplorers);
+    expect(explorersByMission).toStrictEqual(nodeExplorers);
   });
   test("2. Prueba para el metodo getExplorersUsernamesByMission", () => {
     const explorersUsernamesByMissionByMission =
       ExplorerController.getExplorersUsernamesByMission("node");
-    expect(explorersUsernamesByMissionByMission).toExtrictEqual(
+    expect(explorersUsernamesByMissionByMission).toStrictEqual(
       nodeExplorersUsernames
     );
   });
